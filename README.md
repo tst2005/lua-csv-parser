@@ -55,6 +55,13 @@ end
 
 # 2. with LPeg.re
 
+for now we make tries with this [CSV sample](sample.csv) :
+```csv
+foo,bar,baz
+1,2,"trois"
+11,22,"trois trois"
+```
+
 # 2.a. LPeg parse only one line at a time
 
 Lua code is used to get lines from the input and add the parsed line result into a table.
