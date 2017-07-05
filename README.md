@@ -29,6 +29,13 @@ function csv (s)
   return lpeg.match(record, s)
 end
 ```
+Run: lua try1/test.try1a.lua
+
+And get:
+```lua
+foo	bar	baz
+```
+
 
 # 1.b. LPeg sample from doc (bis)
 
@@ -50,8 +57,16 @@ function csv (s)
 end
 ```
 
+Run: lua try1/test.try1b.lua
 
-
+And get:
+```lua
+{
+	[1] = "foo",
+	[2] = "bar",
+	[3] = "baz",
+}
+```
 
 # 2. with LPeg.re
 
@@ -62,7 +77,9 @@ foo,bar,baz
 11,22,"trois trois"
 ```
 
-# 2.a. LPeg parse only one line at a time
+We need the [LPeg.re documentation](http://www.inf.puc-rio.br/~roberto/lpeg/re.html#basic).
+
+# 2.a. LPeg.re parse only one line at a time
 
 Lua code is used to get lines from the input and add the parsed line result into a table.
 
