@@ -106,9 +106,9 @@ print("return "..require"tprint"(parsed))	-- in lua
 --print(require"json".encode(parsed))		-- in json
 ```
 
-Run: `lua csv-parser.lua.1 < sample.csv`
+Run: `lua csv-parser-1.lua < sample.csv`
 See files :
-* [csv-parser.lua.1](csv-parser.lua.1)
+* [csv-parser-1.lua](csv-parser-1.lua)
 * [sample.csv](sample.csv)
 
 Get the result:
@@ -155,9 +155,9 @@ print("return "..require"tprint"(parsed))	-- in lua
 --print(require"json".encode(parsed))		-- in json
 ```
 
-Run: `lua csv-parser.lua.2 < sample.csv`
+Run: `lua csv-parser-2.lua < sample.csv`
 See files :
-* [csv-parser.lua.2](csv-parser.lua.2)
+* [csv-parser-2.lua](csv-parser-2.lua)
 * [sample.csv](sample.csv)
 
 Get the result:
@@ -206,9 +206,9 @@ print("return "..require"tprint"(parsed))	-- in lua
 --print(require"json".encode(parsed))		-- in json
 ```
 
-Run: `lua csv-parser.lua.3 < sample.csv`
+Run: `lua csv-parser-3.lua < sample.csv`
 See files :
-* [csv-parser.lua.3](csv-parser.lua.3)
+* [csv-parser-3.lua](csv-parser-3.lua)
 * [sample.csv](sample.csv)
 
 Get the result:
