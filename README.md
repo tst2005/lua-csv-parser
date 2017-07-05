@@ -35,7 +35,7 @@ end
 The doc say we can capture values into a table. Just change the record definition :
 ```diff
 -local record =         field * (',' * field)^0  * (lpeg.P'\n' + -1)
-+local record = lpeg.Ct(field * (',' * field)^0) * (lpeg.P'\n' + -1)
++local record = lpeg.Ct(field * (',' * field)^0) * (lpeg.P'\n' + -1) )
 ```
 
 We get ([try1b.lua](try1/try1b.lua)) :
